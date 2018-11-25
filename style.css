@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  text-align: center;
+  margin-top: 15%;
+  font-family: georgia;
+  background-image: url("http://www.hdfondos.eu/preview/get_photo/767642/1920/1080")
+}
+
+button{
+  font-family: georgia;
+  font-size: 16px;
+  background-color: plum;
+  border: 2px solid plum;
+  border-radius: 5%;
+}
+button:hover {
+    background-color: plum;
+    color: black;
+    opacity:.5;
+}
+input{
+  font-size: 18px;
+  border: 2px solid lightgrey;
+}
+ul{
+  list-style: none;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/***************************************
+
+*****************************************/
+.checked{
+  text-decoration: line-through;
+}
+
+
+/***************************************
+MEDIA QUERIES
+*****************************************/
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+
+}
